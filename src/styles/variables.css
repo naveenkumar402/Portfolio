@@ -1,0 +1,50 @@
+:root {
+  /* Colour */
+  --bg: #05070d;
+  --bg-2: #0a0e18;
+  --bg-3: #0f1524;
+  --navy: #0b1530;
+  --line: rgba(148, 170, 220, 0.14);
+  --line-strong: rgba(148, 170, 220, 0.28);
+  --text: #f3f6fb;
+  --text-2: #a9b3c7;
+  --text-3: #7c869b;
+  --accent: #38d6ff;
+  --accent-soft: rgba(56, 214, 255, 0.14);
+  --accent-glow: rgba(56, 214, 255, 0.35);
+  --violet: #8b7bff;
+  --violet-soft: rgba(139, 123, 255, 0.16);
+  --ok: #4ee2a8;
+  --warn: #ffb86b;
+
+  /* Type */
+  --font-display: 'Space Grotesk', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+  --fs-mega: clamp(3.2rem, 11vw, 10.5rem);
+  --fs-xl: clamp(2.2rem, 5.4vw, 5rem);
+  --fs-h2: clamp(2rem, 4.2vw, 3.6rem);
+  --fs-h3: clamp(1.35rem, 2.1vw, 1.9rem);
+  --fs-lede: clamp(1.02rem, 1.25vw, 1.2rem);
+  --fs-body: 1rem;
+  --fs-small: 0.875rem;
+  --fs-xs: 0.75rem;
+
+  /* Space */
+  --s-1: 0.25rem;
+  --s-2: 0.5rem;
+  --s-3: 0.75rem;
+  --s-4: 1rem;
+  --s-5: 1.5rem;
+  --s-6: 2rem;
+  --s-7: 3rem;
+  --s-8: 4.5rem;
+  --s-9: 7rem;
+  --gutter: clamp(1rem, 4vw, 3rem);
+  --max: 1280px;
+  --nav-h: 64px;
+
+  --radius: 12px;
+  --radius-sm: 8px;
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+}
